@@ -1,38 +1,388 @@
-.App {
-  text-align: center;
+*{
+  padding: 2px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.web-container{
+  background-color:white;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container{
+ margin: 0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  /* position: fixed; */
+  margin-bottom: 10px;
+  padding: 5px 25px ;
+}
+.logo{
+  width: 20%;
+  margin-left: 20px;
+}
+.navbar-center{
+  font-weight: 600;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.navbar-center a{
+  margin-right: 30px;
+}
+button{
+  background-color: black;
   color: white;
+  width: 100%;
+  padding: 13px;
+  border-radius: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+.master-life-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 40px 100px 40px;
+  background: linear-gradient(to bottom right, #db7ef0, #fecfef);
+  border-radius: 30px;
+  
 }
+.Ahead{
+  font-weight: 500;
+  
+}
+.master-head{
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.app-conatainer{
+  background-color: black;
+  color: white;
+  display: flex;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 4px;
+}
+.apple{
+  width: 30px;
+  height: 25px;
+}
+span{
+  font-size:15px ;
+  font-weight: 500;
+}
+.app-conatainer p{
+  font-size: 10px;
+}
+.conatner-star-app{
+  display: flex;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.star{
+  display: grid;
+  gap: 3px; 
+  margin-left: 15px;
+  color: gold;
+  
+}
+.star-flow{
+  display: flex;
+  width: 100px;
+  height: 20px;
+}
+.reviews{
+  font-size: 10px;
+  color: black;
+  
+}
+.master-right{
+  align-items: center;
+  width: fit-content;
+}
+.image{
+  width: 60%;
+  height: 90%;
+  margin-right: 400px;
+  
+}
+/* -------------------second-container------------ */
+.second-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 30px 20px;
+}
+.second-head{  
+  font-size: 30px;
+  font-weight: 700;
+}
+.second-para{
+  font-size: 17px;
+  font-weight: 500;
+}
+/* --------------------third-container--------- */
+.third-card-container{
+  display: flex;
+  gap: 25px;
+}
+.third-head{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 30px 0px 30px 50px;
+}
+.card{
+  background-color: cadetblue;
+  padding: 20px;
+  border-radius: 15px;
+}
+.card-1{
+  background-color: rgb(47, 1, 232);
+  padding: 20px;
+  border-radius: 15px;
+}
+.card-2{
+  background-color: rgb(196, 43, 107);
+  padding: 20px;
+  border-radius: 15px;
+}
+.card-3{
+  background-color: rgb(185, 229, 63);
+  padding: 20px;
+  border-radius: 15px;
+}
+.emoji{
+  color: goldenrod;
+  width: 50px;
+  height: 50px;
+}
+/* -------------fourth---------- */
+.fourth-conatiner{
+  background-color: #f2e9d3;
+  padding: 70px;
+  margin-top: 70px;
+  border-radius: 30px;
+  padding-bottom: 100px;
+}
+.f-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  
+  margin-bottom: 40px;
+}
+.f-para{
+  font-weight: 600;
+  margin-top: 50px;
+}
+.f-head{
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom:40px ;
+  
+}
+.f-container p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.f-image{
+  width: 100px;
+  margin-left: 300px;
+}
+/* ------------fifth container ----------- */
+.fifth-container{
+  margin: 80px 10px 80px 10px;
+  padding: 30px;
+}
+.fif-para{
+  font-weight: 500;
+}
+.fif-head{
+  font-size: 50px;
+  font-weight: 700;
+}
+.scroll-info{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 10px;
+ 
+}
+.scroll{
+  max-height: 400px;
+  overflow: auto;
+}
+.fif--para-title{
+  font-weight: bold;
+}
+.scrool-para p{
+  font-weight: 400;
+}
+/* ----------------seven------------- */
+.seventh-container{
+  background-color: skyblue;
+  text-align: center;
+  padding: 30px;
+  border-radius: 30px;
+}
+.seventh-container p{
+  font-weight: 400;
+  font-size: 20px;
+}
+.seventh-container h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+.s-card{
+  background-color: white;
+  margin: 50px 50px 50px 500px;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}.s-card p{
+  background-color: rgb(131, 207, 243);
+  gap: 20px;
+  height: fit-content;
+  align-items: center;
+  margin-top: 30px;
+}
+.self-moto{
+  display: flex;
+  justify-content: space-between;
+}
+.badg{
+  width: 70px;
+  height: 70px;
+  color: goldenrod;
+  margin: 10px 10px 10px 100px;
+}
+/* -----------------------eight------------------- */
+.eight-container{
+  text-align: center;
+  padding: 100px;
+}
+.eight-container p{
+  font-weight: 500;
+}
+.eight-container h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.disc{
+  font-size: 20px;
+}
+.signature{
+  font-family: 'roboto';
+  margin: 20px;
+}
+.start{
+  width: fit-content;
+  margin: 20px;
+  padding: 10px 30px 10px 30px;
+}
+/* --------------nineth-container---------------- */
+.nineth-container{
+  background-color: rgb(176, 222, 247);
+  padding: 40px;
+  border-radius: 30px;
+}
+.nineth-container h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.nineth-container h2{
+  color: rgb(114, 53, 248);
+  font-size: 40px;
+  font-weight: 500;
+}
+.n-top{
+  display: flex;
+  justify-content: space-between;
+}
+.n-bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  gap: 20px;
+}
+.about{
+  background-color: white;
+  padding: 30px;
+  /* width: fit-content; */
+  height: fit-content;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 400px;
+}
+.about h3{
+   font-weight: bold;
+   font-size: 20px;
+}
+.about p{
+  font-weight: 400;
+}
+.n-left{
+  padding: 50px;
+  max-height: 450px;
+  overflow: auto;
+}
+.n-left-card{
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+.n-left-card h2{
+  font-weight: bold;
+  font-size: 20px;
+}
+/* ---------------tenth--------------- */
+.tenth-card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 20px; 
+}
+.tenth-card-container .card{
+    background-color: #f2e9d3;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.tenth-card-container .card ul {
+  /* list-style: none; */
+  text-decoration: none;
+  height: 150px;
+  
+}
+.tenth-card-container h5{
+  font-size:25px;
+  font-weight: bold;
+}
+/* --------------footer-container-------------- */
+.footer-container{
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.footer-container .logo{
+  margin-left: 200px;
+  
+}
+.f-mail{
+  display: flex;
+}
+.footer-mail{
+  display: flex;
+  margin: 20px 20px;
+}
+.f-icon{
+  width: 30px;
+  height: 30px;
+}
+.footer-mail p{
+  font-weight: 500;
+  margin-right: 30px;
+}
+.footer-container .app-conatainer{
+  margin-left: 210px;
+}
+.copyright{
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 150px;
+  margin-top: 30px;
 }
